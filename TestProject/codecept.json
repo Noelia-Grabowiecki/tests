@@ -3,12 +3,10 @@
   "timeout": 10000,
   "output": "./output",
   "helpers": {
-    "SeleniumWebdriver" : {
-       "url": "http://localhost",
-       "browser": "firefox",
-       "smartWait": 5000,
-       "restart": false
-     }
+    "WebDriverIO": {
+    "url": "http://www.google.com",
+    "browser": "firefox"
+}
   },
   "include": {
     "I": "./steps_file.js"
