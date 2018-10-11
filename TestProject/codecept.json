@@ -1,12 +1,14 @@
 {
   "tests": "./*_test.js",
-  "timeout": 10000,
+  "smartWait": 10000,
   "output": "./output",
+  "restart": false,
+  "windowSize": "maximize",
   "helpers": {
     "WebDriverIO": {
     "url": "http://www.google.com",
     "browser": "firefox"
-}
+    }
   },
   "include": {
     "I": "./steps_file.js"
@@ -15,3 +17,4 @@
   "mocha": {},
   "name": "TestProject"
 }
+
