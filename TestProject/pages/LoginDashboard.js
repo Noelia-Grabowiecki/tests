@@ -6,7 +6,7 @@ module.exports = {
   // setting locators
   fields: {
     email: {css: 'input[name=user]'},
-    password: {css: '.login-password-input'}
+    password: {css: 'input[type=password]'}
   },
   submitButton: {css: 'button[type=submit]'},
 
