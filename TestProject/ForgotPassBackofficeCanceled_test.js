@@ -1,5 +1,5 @@
 
-Feature('Forgot Password Canceled Test');
+Feature('Forgot Password Backoffice Canceled Test');
 
 Scenario('test forgot password canceled', (I) => {
 	I.amOnPage('https://backend.firstdata-test.geopagos.com');

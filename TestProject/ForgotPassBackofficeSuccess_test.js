@@ -1,5 +1,5 @@
 
-Feature('Forgot Password Success Test');
+Feature('Forgot Password Backoffice Success Test');
 
 Scenario('test forgot password success', (I) => {
 	I.amOnPage('https://backend.firstdata-test.geopagos.com');
