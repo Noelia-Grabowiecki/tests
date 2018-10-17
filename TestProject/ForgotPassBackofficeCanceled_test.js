@@ -1,4 +1,3 @@
-
 Feature('Forgot Password Backoffice Canceled Test');
 
 Scenario('test forgot password backoffice canceled', (I) => {
